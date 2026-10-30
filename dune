@@ -8,6 +8,6 @@
 (executable
   (name plugin_lib_csv)
   (embed_in_plugin_libraries csv)
-  (flags -linkall)
+  (flags (:standard -linkall))
   (modes (native plugin))
 )
